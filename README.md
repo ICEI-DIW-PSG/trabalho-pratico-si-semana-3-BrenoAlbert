@@ -10,15 +10,15 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Breno Albert Batista de Sá
+- Matricula: 902305
+- Proposta de projeto escolhida: 3. Organização e equipes
+- Breve descrição sobre seu projeto: Um site com a proposta de ser uma ferramenta para organização de cronogramas e agendas voltado para pessoas, grupos e organizações.
 
 
 ## Print do(s) wireframe(s) criado
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Wireframe](public/wireframe.png)
 
 
 ## Print da home-page criada
