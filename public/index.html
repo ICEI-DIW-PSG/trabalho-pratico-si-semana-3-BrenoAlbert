@@ -11,19 +11,21 @@
     <header>
         <h1>Organize</h1>
         <nav class="menu">
-            <ul>
+            <ul name="irc">
                 <li><a href="#">Início</a></li>
                 <li><a href="#">Recursos</a></li>
                 <li><a href="#">Contato</a></li>
             </ul>
         </nav>
-        <form name="form-login" method="post">
-                Usuário: <input type="text" name="usuario" value=""><br />
-                Senha: <input type="text" name="senha" value=""><br />
-        </form>
-        <div class="buttons">
-            <button><strong>Login</strong></button>
-            <button>Criar conta</button>
+        <div class="login-area">
+            <form name="form-login" method="post">
+                    Usuário: <input type="text" name="usuario" value=""><br />
+                    Senha: <input type="text" name="senha" value="">
+            </form>
+            <div class="buttons">
+                <button><strong>Login</strong></button>
+                <button>Criar conta</button>
+            </div>
         </div>
     </header>
 
@@ -47,25 +49,25 @@
             <img src="todo-stock.jpg" alt="img-alto-1">
         </section>
 
-        <!-- botões meio -->
+        <!-- features -->
 
         <section class="features">
             <div>
                 <img src="clipboard-list.png" alt="icon-quadro">
                 <p>
-                    Quadro de tarefas
+                    <a href="#">Quadro de tarefas</a>
                 </p>
             </div>
             <div>
                 <img src="calendar-solid.png" alt="icon-agenda">
                 <p>
-                    Agenda integrada
+                    <a href="#">Agenda integrada</a>
                 </p>
             </div>
             <div>
                 <img src="people-group.png" alt="icon-colab">   
                 <p>
-                    Colaboração
+                    <a href="#">Colaboração</a>
                 </p>
             </div>
         </section>

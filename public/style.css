@@ -1,3 +1,145 @@
-body {
-    background-color: white;
+/* Reset */
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    position: relative;
+    height: 70px;
+    background: #f9f9f9;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Nome do site (esquerda) */
+header h1 {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    margin: 0;
+}
+
+/* Menu (centro) */
+header nav {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+header nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+/* Login (direita) */
+header .login-area {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+header .login-area .buttons button {
+    margin-left: 5px;
+    padding: 5px 10px;
+}
+
+/* Seção superior */
+.uppercontent {
+    padding: 20px;
+}
+.uppercontent .text {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+}
+.uppercontent img {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+.uppercontent .start-now {
+    margin-top: 10px;
+    padding: 8px 15px;
+}
+
+/* Features */
+.features {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+    text-align: center;
+}
+.features div {
+    display: inline-block;
+    width: 20%;
+    margin: 0 2%;
+}
+.features div img {
+    width: 40px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+/* Ad Banner */
+.ad {
+    text-align: center;
+    padding: 20px 0;
+}
+.ad img {
+    width: 70%;
+}
+
+/* Conteúdo inferior 1 */
+.lowercontent1 {
+    padding: 20px;
+}
+.lowercontent1 img {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+}
+.lowercontent1 .text {
+    display: inline-block;
+    width: 35%;
+    padding: 10px;
+    vertical-align: top;
+}
+
+/* Conteúdo inferior 2 */
+.lowercontent2 {
+    padding: 20px;
+}
+.lowercontent2 .text {
+    display: inline-block;
+    width: 35%;
+    padding: 10px;
+    vertical-align: top;
+}
+.lowercontent2 img {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+}
+
+/* Rodapé */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
 }
